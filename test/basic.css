@@ -1,0 +1,5 @@
+test {
+	text-indent: 2ic;
+	width: calc(8ic + 20px);
+	height: 10px;
+}
