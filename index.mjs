@@ -2,14 +2,16 @@ import postcss from 'postcss';
 
 export default postcss.plugin('postcss-ic-unit', opts => {
 	const preserve = 'preserve' in Object(opts) ? Boolean(opts.preserve) : true;
+	const whitespace = "[\\f\\n\\r\\x09\\x20]";
+	const icMatch = new RegExp(
+		`((?:\\.\\d+)|\\d+(?:\\.\\d+)?)${whitespace}*ic`,
+		"g"
+	);
 	return root => {
 		root.walkDecls(decl => {
-			if (decl.value.indexOf("ic") === -1) return;
-			if (/\d+ic/.test(decl.value)) {
-				const cloned = decl.cloneBefore();
-				cloned.value = cloned.value.replace(/\d+ic/, string => {
-					return parseInt(string) + 'em'
-				})
+			const replaced = decl.value.replace(icMatch, "$1em");
+			if (replaced !== decl.value) {
+				decl.cloneBefore().value = replaced;
 				if (!preserve) {
 					decl.remove();
 				}
