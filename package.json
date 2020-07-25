@@ -7,38 +7,43 @@
   "repository": "JLHwung/postcss-ic-unit",
   "homepage": "https://github.com/JLHwung/postcss-ic-unit#readme",
   "bugs": "https://github.com/JLHwung/postcss-ic-unit/issues",
-  "main": "index.cjs.js",
-  "module": "index.es.mjs",
+  "main": "./index.bundle.cjs",
+  "module": "./index.mjs",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.bundle.cjs"
+  },
   "files": [
-    "index.cjs.js",
-    "index.cjs.js.map",
-    "index.es.mjs",
-    "index.es.mjs.map"
+    "index.mjs",
+    "index.bundle.cjs"
   ],
   "scripts": {
+    "build": "rollup -c .rollup.mjs --silent",
+    "check:ec": "echint --ignore index.bundle.cjs test",
+    "check:js": "eslint *.[cm]js --cache --ignore-path .gitignore --quiet",
+    "check:spelling": "yaspeller -c package.json --lang en --ignore-uppercase --ignore-roman-numerals --ignore-urls README.md",
     "prepublishOnly": "npm test",
-    "pretest": "rollup -c .rollup.js --silent",
-    "test": "echo 'Running tests...'; npm run test:js && npm run test:tape",
-    "test:ec": "echint --ignore index.*.js test",
-    "test:js": "eslint *.js --cache --ignore-path .gitignore --quiet",
-    "test:tape": "postcss-tape"
-  },
-  "engines": {
-    "node": ">=6.0.0"
+    "pretest": "npm run build",
+    "check": "npm run check:js && npm run check:ec && npm run check:spelling",
+    "test": "echo 'Running tests...'; npm run check && npm run test:tape",
+    "test:tape": "postcss-tape --config .tape.cjs"
   },
   "dependencies": {
-    "postcss": "^7.0.2"
+    "postcss": "^7.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.6.0",
-    "eslint-config-dev": "^2.0.0",
-    "postcss-tape": "^2.2.0",
-    "pre-commit": "^1.2.2",
-    "rollup": "^0.66.0",
-    "rollup-plugin-babel": "^4.0.1"
+    "@babel/core": "7.10.5",
+    "@babel/preset-env": "7.10.4",
+    "@rollup/plugin-babel": "5.1.0",
+    "ajv": "6.12.3",
+    "babel-eslint": "10.1.0",
+    "echint": "4.0.2",
+    "eslint": "7.5.0",
+    "eslint-config-dev": "2.0.0",
+    "postcss-tape": "4.0.0",
+    "pre-commit": "1.2.2",
+    "rollup": "2.23.0",
+    "yaspeller": "7.0.0"
   },
   "eslintConfig": {
     "extends": "dev",
@@ -51,5 +56,11 @@
     "values",
     "ic",
     "length"
-  ]
+  ],
+  "yaspeller": {
+    "dictionary": [
+      "Webpack",
+      "PostCSS"
+    ]
+  }
 }
