@@ -1,10 +1,13 @@
-# Changes to PostCSS IC Unit
+#### 1.0.1 (2020-07-25)
 
-### 2.0.0 (September 17, 2018)
+##### Chores
 
-- Updated: Support for PostCSS v7+
-- Updated: Support for Node v6+
+*  overhaul build infra (#2) (15179286)
 
-### 1.0.0 (April 30, 2018)
+##### Bug Fixes
+
+*  incorrect number replacement (#4) (5562258b)
+
+### 1.0.0 (2018-04-30)
 
 - Initial version
