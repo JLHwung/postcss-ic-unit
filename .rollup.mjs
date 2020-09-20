@@ -2,10 +2,12 @@ import babel from "@rollup/plugin-babel";
 
 export default {
 	input: "index.mjs",
-	output: { file: "index.bundle.cjs", format: "cjs", exports: "auto" },
+	output: [
+		{ file: "dist/index.bundle.cjs", format: "cjs", exports: "default" },
+		{ file: "dist/index.bundle.mjs", format: "es" },
+	],
 	plugins: [
 		babel.default({
-			presets: [["@babel/preset-env", { targets: { node: 6 }, loose: true }]],
 			babelHelpers: "bundled",
 		}),
 	],

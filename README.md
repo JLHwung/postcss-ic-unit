@@ -34,7 +34,7 @@ p {
 Add [PostCSS IC Unit] to your project:
 
 ```bash
-npm install postcss-ic-unit --save-dev
+npm install postcss postcss-ic-unit --save-dev
 ```
 
 Use [PostCSS IC Unit] to process your CSS:

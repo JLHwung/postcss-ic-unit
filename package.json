@@ -7,47 +7,44 @@
   "repository": "JLHwung/postcss-ic-unit",
   "homepage": "https://github.com/JLHwung/postcss-ic-unit#readme",
   "bugs": "https://github.com/JLHwung/postcss-ic-unit/issues",
-  "main": "./index.bundle.cjs",
-  "module": "./index.mjs",
+  "main": "./dist/index.bundle.cjs",
+  "type": "module",
   "exports": {
-    "import": "./index.mjs",
-    "require": "./index.bundle.cjs"
+    "import": "./dist/index.bundle.mjs",
+    "require": "./dist/index.bundle.cjs"
   },
   "files": [
-    "index.mjs",
-    "index.bundle.cjs"
+    "dist/"
   ],
   "scripts": {
-    "build": "rollup -c .rollup.mjs --silent",
-    "check:ec": "echint --ignore index.bundle.cjs test",
+    "build": "rollup -c .rollup.mjs",
     "check:js": "eslint *.[cm]js --cache --ignore-path .gitignore --quiet",
     "check:spelling": "yaspeller -c package.json --lang en --ignore-uppercase --ignore-roman-numerals --ignore-urls README.md",
-    "prepublishOnly": "npm test",
-    "pretest": "npm run build",
-    "check": "npm run check:js && npm run check:ec && npm run check:spelling",
-    "test": "echo 'Running tests...'; npm run check && npm run test:tape",
+    "prepublishOnly": "yarn test",
+    "check": "yarn check:js && yarn check:spelling",
+    "test": "yarn build && echo 'Running tests...'; yarn check && yarn test:tape",
     "test:tape": "postcss-tape --config .tape.cjs"
-  },
-  "dependencies": {
-    "postcss": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.11.6",
+    "@babel/eslint-parser": "7.11.5",
     "@babel/preset-env": "7.11.5",
     "@rollup/plugin-babel": "5.2.1",
     "ajv": "6.12.5",
-    "babel-eslint": "10.1.0",
-    "echint": "4.0.2",
     "eslint": "7.9.0",
     "eslint-config-dev": "2.0.0",
-    "postcss-tape": "4.0.0",
+    "postcss": "8.0.5",
+    "postcss-tape": "6.0.0",
     "pre-commit": "1.2.2",
     "rollup": "2.27.1",
     "yaspeller": "7.0.0"
   },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  },
   "eslintConfig": {
     "extends": "dev",
-    "parser": "babel-eslint"
+    "parser": "@babel/eslint-parser"
   },
   "keywords": [
     "postcss",

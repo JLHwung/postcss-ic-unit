@@ -29,7 +29,7 @@ scope and avoid unrelated commits.
    git remote add upstream git@github.com:JLHwung/postcss-ic-unit.git
 
    # Install the tools necessary for testing
-   npm install
+   yarn install
    ```
 
 2. Create a branch for your feature or fix:
@@ -45,7 +45,7 @@ scope and avoid unrelated commits.
 3. If your code follows our practices, then push your feature branch:
    ```bash
    # Test current code
-   npm test
+   yarn test
    ```
    ```bash
    # Push the branch for your new feature
