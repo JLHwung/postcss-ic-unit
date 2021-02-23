@@ -63,9 +63,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.13.0":
-  version: 7.13.0
-  resolution: "@babel/eslint-parser@npm:7.13.0"
+"@babel/eslint-parser@npm:7.13.4":
+  version: 7.13.4
+  resolution: "@babel/eslint-parser@npm:7.13.4"
   dependencies:
     eslint-scope: 5.1.0
     eslint-visitor-keys: ^1.3.0
@@ -73,7 +73,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ">=7.11.0"
     eslint: ">=7.5.0"
-  checksum: 9ad8ec5caf5780c071a20684d4374255a7d37431002c569e866d1ea367f29289aa0c76e78c9d636dc49ac5142542fd3d81e0b63aa90725d749b390f26829120d
+  checksum: 1a669e9ae92fa5839d875b317d3f8f6026016aa1d93d33151c074f61abb2ed49b6b75d073a59fb911703a6ae0fa85ebfc3004225411961d60e8c54688ac5940a
   languageName: node
   linkType: hard
 
@@ -3229,7 +3229,7 @@ fsevents@~2.1.2:
   resolution: "postcss-ic-unit@workspace:."
   dependencies:
     "@babel/core": 7.13.1
-    "@babel/eslint-parser": 7.13.0
+    "@babel/eslint-parser": 7.13.4
     "@babel/preset-env": 7.13.0
     "@rollup/plugin-babel": 5.3.0
     ajv: 7.1.1
