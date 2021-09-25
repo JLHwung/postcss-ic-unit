@@ -3490,10 +3490,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"nanocolors@npm:^0.1.5":
-  version: 0.1.5
-  resolution: "nanocolors@npm:0.1.5"
-  checksum: a0e385518a6381a86d9f5452000494ee65ffbbe2986620acefd557fd665b497804000b8095f16f81ec7a1a55d4d0a864dabd3460f4c2a76f971261aff00f27ca
+"nanocolors@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "nanocolors@npm:0.2.2"
+  checksum: d59d266c45d75476b1ced585c09e1986782f1ff8aca84c78dd8ff1997769fdd91638b263c83f3ee4633ae0c15e40c85467fc035766754136faa01b32f84dd729
   languageName: node
   linkType: hard
 
@@ -3760,7 +3760,7 @@ fsevents@~2.1.2:
     ajv: 8.6.3
     eslint: 7.32.0
     eslint-config-dev: 2.0.0
-    postcss: 8.3.7
+    postcss: 8.3.8
     postcss-tape: 6.0.1
     pre-commit: 1.2.2
     rollup: 2.38.2
@@ -3781,14 +3781,14 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.3.7":
-  version: 8.3.7
-  resolution: "postcss@npm:8.3.7"
+"postcss@npm:8.3.8":
+  version: 8.3.8
+  resolution: "postcss@npm:8.3.8"
   dependencies:
-    nanocolors: ^0.1.5
+    nanocolors: ^0.2.2
     nanoid: ^3.1.25
     source-map-js: ^0.6.2
-  checksum: cbcef5f8be9120336cb5dac6681025e9af34d664a5dbde61ab08c557c7a9030411577464b213e35d0f4d5e4a7d3e2cfee073975ac48c80e37f6384a5aa81a7b7
+  checksum: bea4f2f367c803739ca89c6773aa80ecad6480171db7e1ebb211fabe7eaf7ff68b3b4d007e41f84d561344a588d62d1b50b3e46e1f5c368712100df553fc09ca
   languageName: node
   linkType: hard
 
