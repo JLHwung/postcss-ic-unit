@@ -3807,7 +3807,7 @@ fsevents@~2.1.2:
     postcss-tape: 6.0.1
     pre-commit: 1.2.2
     rollup: 2.38.2
-    yaspeller: 7.0.0
+    yaspeller: 7.1.0
   peerDependencies:
     postcss: ^8.0.0
   languageName: unknown
@@ -4606,9 +4606,9 @@ resolve@^1.14.2:
   languageName: node
   linkType: hard
 
-"yaspeller@npm:7.0.0":
-  version: 7.0.0
-  resolution: "yaspeller@npm:7.0.0"
+"yaspeller@npm:7.1.0":
+  version: 7.1.0
+  resolution: "yaspeller@npm:7.1.0"
   dependencies:
     async: ^3.2.0
     chalk: ^4.0.0
@@ -4622,11 +4622,12 @@ resolve@^1.14.2:
     markdown-it: ^10.0.0
     minimatch: ^3.0.4
     node-fetch: ^2.6.0
+    parse-json: ^5.0.0
     strip-json-comments: ^3.0.1
     xml2js: ^0.4.23
     yandex-speller: ^4.1.0
   bin:
-    yaspeller: ./bin/yaspeller
-  checksum: f24c2ac5cddc14228db19cc8e4a3955cceccaa77d57c99ef595f641ddd3bc78710f7e87ad54a7913e0d19e471fea24b36786855e891190d1feb3608360eb67d2
+    yaspeller: bin/yaspeller
+  checksum: 24f1d404b5271c535d940d7dd1d50bbcce3b2e8e30b083d6cee78684a4c5880b2b1108f3d305dd6daa6e63fc2d43acd7647dc2cdf59bbd757de58b12a941849e
   languageName: node
   linkType: hard
