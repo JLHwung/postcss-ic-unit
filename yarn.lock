@@ -1637,15 +1637,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:8.7.1":
-  version: 8.7.1
-  resolution: "ajv@npm:8.7.1"
+"ajv@npm:8.8.0":
+  version: 8.8.0
+  resolution: "ajv@npm:8.8.0"
   dependencies:
     fast-deep-equal: ^3.1.1
     json-schema-traverse: ^1.0.0
     require-from-string: ^2.0.2
     uri-js: ^4.2.2
-  checksum: a55022ea667f7dcbc2c14f44cd4f55d21ddf2d16cce1b2a24ba86c803ad7b50ba3f44906391c72dfa9eac0667c91bcd12ae2431418aa2db95cd8ec46dd065cc6
+  checksum: 26ff7c3f66a757bc3cd4ca5a4bd4cf409d3377827f0d1e46fc7aec1155a4a3a719d384d211b0b954f34c9e5ad423abf446e2c395b93ac31e07ea92ce1459abc8
   languageName: node
   linkType: hard
 
@@ -3441,7 +3441,7 @@ fsevents@~2.1.2:
     "@babel/eslint-parser": 7.16.3
     "@babel/preset-env": 7.16.0
     "@rollup/plugin-babel": 5.3.0
-    ajv: 8.7.1
+    ajv: 8.8.0
     eslint: 8.2.0
     eslint-config-dev: 2.0.0
     postcss: 8.3.11
