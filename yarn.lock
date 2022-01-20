@@ -186,6 +186,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-create-class-features-plugin@npm:^7.16.10":
+  version: 7.16.10
+  resolution: "@babel/helper-create-class-features-plugin@npm:7.16.10"
+  dependencies:
+    "@babel/helper-annotate-as-pure": ^7.16.7
+    "@babel/helper-environment-visitor": ^7.16.7
+    "@babel/helper-function-name": ^7.16.7
+    "@babel/helper-member-expression-to-functions": ^7.16.7
+    "@babel/helper-optimise-call-expression": ^7.16.7
+    "@babel/helper-replace-supers": ^7.16.7
+    "@babel/helper-split-export-declaration": ^7.16.7
+  peerDependencies:
+    "@babel/core": ^7.0.0
+  checksum: 759cad23fb1892a8bfe849946656e56bf8d61d0c9c1d2608071619ea1f1f9c57f7e9eb3ea07efdc90d33193448fa18e2a209ed1ceb9f022918b5bd92f25142fb
+  languageName: node
+  linkType: hard
+
 "@babel/helper-create-class-features-plugin@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/helper-create-class-features-plugin@npm:7.16.7"
@@ -795,15 +812,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-proposal-private-methods@npm:^7.16.7":
-  version: 7.16.7
-  resolution: "@babel/plugin-proposal-private-methods@npm:7.16.7"
+"@babel/plugin-proposal-private-methods@npm:^7.16.11":
+  version: 7.16.11
+  resolution: "@babel/plugin-proposal-private-methods@npm:7.16.11"
   dependencies:
-    "@babel/helper-create-class-features-plugin": ^7.16.7
+    "@babel/helper-create-class-features-plugin": ^7.16.10
     "@babel/helper-plugin-utils": ^7.16.7
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 129b6883fad3d2d7c32dfb0d5ec815dfc1a4e33c4052005743bc9921a13c2adc11c990d8f0f5ebfa1c89b47923adb3ede35d514e8693b3f87ba80742a7376165
+  checksum: c4c01caf59f6c8938a6b477c229739ca37dec2f1929da96f7ff471d4986d34526fd2225571098bd37a6a6dc4d496149d1f9d26140ddb9d6a340dbee8cc9fbfb3
   languageName: node
   linkType: hard
 
@@ -1389,9 +1406,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:7.16.10":
-  version: 7.16.10
-  resolution: "@babel/preset-env@npm:7.16.10"
+"@babel/preset-env@npm:7.16.11":
+  version: 7.16.11
+  resolution: "@babel/preset-env@npm:7.16.11"
   dependencies:
     "@babel/compat-data": ^7.16.8
     "@babel/helper-compilation-targets": ^7.16.7
@@ -1411,7 +1428,7 @@ __metadata:
     "@babel/plugin-proposal-object-rest-spread": ^7.16.7
     "@babel/plugin-proposal-optional-catch-binding": ^7.16.7
     "@babel/plugin-proposal-optional-chaining": ^7.16.7
-    "@babel/plugin-proposal-private-methods": ^7.16.7
+    "@babel/plugin-proposal-private-methods": ^7.16.11
     "@babel/plugin-proposal-private-property-in-object": ^7.16.7
     "@babel/plugin-proposal-unicode-property-regex": ^7.16.7
     "@babel/plugin-syntax-async-generators": ^7.8.4
@@ -1469,7 +1486,7 @@ __metadata:
     semver: ^6.3.0
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: ac0daa5b16604de38ea88abfb16929b7048d113607144cedf12b85c76752cbbc8a8cb7f9dc048935318cf1c8dd39cb96982b90f779af30a30875c757a02c7d32
+  checksum: 0d2645795b64cc56da317361e3d8d2bcdcc6edeeb58ba52cf92d6cbad0ff787449c7389541bbc1f93f4939d6541ec0f581e9bfffd5a1dc22eeb514a51e622275
   languageName: node
   linkType: hard
 
@@ -3560,7 +3577,7 @@ fsevents@~2.1.2:
   dependencies:
     "@babel/core": 7.16.10
     "@babel/eslint-parser": 7.16.5
-    "@babel/preset-env": 7.16.10
+    "@babel/preset-env": 7.16.11
     "@rollup/plugin-babel": 5.3.0
     ajv: 8.9.0
     eslint: 8.7.0
