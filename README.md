@@ -68,7 +68,7 @@ postcss([
 The `preserve` option determines whether the original `ic` declaration should
 remain in the CSS. By default, the original declaration is preserved.
 
-[css-img]: https://cssdb.org/badge/ic-unit.svg
+[css-img]: https://cssdb.org/images/badges/ic-unit.svg
 [css-url]: https://cssdb.org/#ic-unit
 [cli-img]: https://img.shields.io/travis/JLHwung/postcss-ic-unit.svg
 [cli-url]: https://travis-ci.org/JLHwung/postcss-ic-unit
