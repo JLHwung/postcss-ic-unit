@@ -5,14 +5,12 @@ __metadata:
   version: 4
   cacheKey: 6
 
-"@ampproject/remapping@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "@ampproject/remapping@npm:2.0.1"
+"@ampproject/remapping@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "@ampproject/remapping@npm:2.1.1"
   dependencies:
-    "@jridgewell/resolve-uri": ^3.0.3
-    "@jridgewell/trace-mapping": ^0.2.2
-    sourcemap-codec: 1.4.8
-  checksum: d83c0f5f8cd1cb061610ce4bdb2926c10d01603ef47621268e7ca1a3b1054d4c7aecad78b57d878b2ed2b9cdd938bd57d32b6596bfd188005355e57f9185e943
+    "@jridgewell/trace-mapping": ^0.3.0
+  checksum: b6d5bf85e1fbde4b5083cfd39a08d1795b25ff583d7f5feb6e80f219a85b2dbd51eabc342137cd190d194593e69352e61f26a13498351f6b2c890debda19b75c
   languageName: node
   linkType: hard
 
@@ -71,26 +69,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.17.2":
-  version: 7.17.2
-  resolution: "@babel/core@npm:7.17.2"
+"@babel/core@npm:7.17.3":
+  version: 7.17.3
+  resolution: "@babel/core@npm:7.17.3"
   dependencies:
-    "@ampproject/remapping": ^2.0.0
+    "@ampproject/remapping": ^2.1.0
     "@babel/code-frame": ^7.16.7
-    "@babel/generator": ^7.17.0
+    "@babel/generator": ^7.17.3
     "@babel/helper-compilation-targets": ^7.16.7
     "@babel/helper-module-transforms": ^7.16.7
     "@babel/helpers": ^7.17.2
-    "@babel/parser": ^7.17.0
+    "@babel/parser": ^7.17.3
     "@babel/template": ^7.16.7
-    "@babel/traverse": ^7.17.0
+    "@babel/traverse": ^7.17.3
     "@babel/types": ^7.17.0
     convert-source-map: ^1.7.0
     debug: ^4.1.0
     gensync: ^1.0.0-beta.2
     json5: ^2.1.2
     semver: ^6.3.0
-  checksum: 65a193e6de2223c4f87bee57df7112cfc49de9c667b232a39fd00f632181398a28111d9cec9bc067f60fa8e6407bb1f854cf2b68d427202582e3c1a05010bf8b
+  checksum: 5939db99dd3537ddd0565b30425b2b5db6025431db3c6909ce28e87d903b74461c8f404bc7031a91949caab871f7ebd153e58a08de2b5b66dc003f382854e924
   languageName: node
   linkType: hard
 
@@ -149,6 +147,17 @@ __metadata:
     jsesc: ^2.5.1
     source-map: ^0.5.0
   checksum: 8f7bd35a6d379cce7a4fbf5c311ae680bb77c8d6d1bd21ff394b8975ed42cb30f58ab5cebec43ac59197ff26d7ee4da98a43225c5fe7cd35bcd571b16991d95a
+  languageName: node
+  linkType: hard
+
+"@babel/generator@npm:^7.17.3":
+  version: 7.17.3
+  resolution: "@babel/generator@npm:7.17.3"
+  dependencies:
+    "@babel/types": ^7.17.0
+    jsesc: ^2.5.1
+    source-map: ^0.5.0
+  checksum: 88ea5d0b1d289fbe1f4b1a0c6457370a969b2a78711b157415bddddd860723f0c8078ae2b3a67f99dafa439e53e42b16b21767da7df8d96b55c7a7472f4010f8
   languageName: node
   linkType: hard
 
@@ -657,6 +666,15 @@ __metadata:
   bin:
     parser: ./bin/babel-parser.js
   checksum: b0f91826da9c4c2930c34f15fe30c9e9566bedc6389b5f0f00ead584fcd29b9156fd47b147007a469f072f55316cc548c1809c9c56c52b56a91b6c114358a114
+  languageName: node
+  linkType: hard
+
+"@babel/parser@npm:^7.17.3":
+  version: 7.17.3
+  resolution: "@babel/parser@npm:7.17.3"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: 7a601f86e628b5e701e9b954a838a4bc5506b050c697ebb8862a3dc68fbe93576a644326827b523180ba06ad58b3d978c43dc77509d93dc0573daa0b1aff5aed
   languageName: node
   linkType: hard
 
@@ -1629,6 +1647,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/traverse@npm:^7.17.3":
+  version: 7.17.3
+  resolution: "@babel/traverse@npm:7.17.3"
+  dependencies:
+    "@babel/code-frame": ^7.16.7
+    "@babel/generator": ^7.17.3
+    "@babel/helper-environment-visitor": ^7.16.7
+    "@babel/helper-function-name": ^7.16.7
+    "@babel/helper-hoist-variables": ^7.16.7
+    "@babel/helper-split-export-declaration": ^7.16.7
+    "@babel/parser": ^7.17.3
+    "@babel/types": ^7.17.0
+    debug: ^4.1.0
+    globals: ^11.1.0
+  checksum: c183563c0d277acfc5094ae319f820a320742d1278842b613970efd9987af577636f5b1c5bb55a7b1959b947b7edca40269e7ac272e0fd0876d5b46aff2de611
+  languageName: node
+  linkType: hard
+
 "@babel/types@npm:^7.10.4, @babel/types@npm:^7.4.4":
   version: 7.11.5
   resolution: "@babel/types@npm:7.11.5"
@@ -1744,13 +1780,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@jridgewell/trace-mapping@npm:0.2.2"
+"@jridgewell/sourcemap-codec@npm:^1.4.10":
+  version: 1.4.11
+  resolution: "@jridgewell/sourcemap-codec@npm:1.4.11"
+  checksum: 3e4971d03db7c0399365078fc7c74ccd250b3550c0ce1932984f1216154dedc3cd06843c6491b0dc780bd90f2339aa28d1832bae9e8f368a27cef4a05caad5b5
+  languageName: node
+  linkType: hard
+
+"@jridgewell/trace-mapping@npm:^0.3.0":
+  version: 0.3.4
+  resolution: "@jridgewell/trace-mapping@npm:0.3.4"
   dependencies:
     "@jridgewell/resolve-uri": ^3.0.3
-    sourcemap-codec: 1.4.8
-  checksum: 85124a5e5b16cb968301317271beb10c6207a2bb3d88e8fc0da7fcbee29049e1ec332e0b7ff9f123cf35a7cd035827735a7c3368d8fbc041a79b510836a671a8
+    "@jridgewell/sourcemap-codec": ^1.4.10
+  checksum: 8bf22e4fa618c83dc6f875e5678749d15e4afaa790584ac65dae3ed3e06b5411e3b086e74aa7dd4f540c9b3c7788a79292245181a82214da21e6399266c8712e
   languageName: node
   linkType: hard
 
@@ -3597,7 +3640,7 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "postcss-ic-unit@workspace:."
   dependencies:
-    "@babel/core": 7.17.2
+    "@babel/core": 7.17.3
     "@babel/eslint-parser": 7.17.0
     "@babel/preset-env": 7.16.11
     "@rollup/plugin-babel": 5.3.0
@@ -3999,13 +4042,6 @@ resolve@^1.14.2:
   version: 0.5.7
   resolution: "source-map@npm:0.5.7"
   checksum: 737face96577a2184a42f141607fcc2c9db5620cb8517ae8ab3924476defa138fc26b0bab31e98cbd6f19211ecbf78400b59f801ff7a0f87aa9faa79f7433e10
-  languageName: node
-  linkType: hard
-
-"sourcemap-codec@npm:1.4.8":
-  version: 1.4.8
-  resolution: "sourcemap-codec@npm:1.4.8"
-  checksum: 4d56d1232a45af813606d1755f11e7ae6b3542c615a7e3f904382f0134a9412ba8d090e83749254d78449eafdfcc62d5158b8f35e6241480b51b74b5c46b99f9
   languageName: node
   linkType: hard
 
