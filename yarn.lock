@@ -69,9 +69,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.17.4":
-  version: 7.17.4
-  resolution: "@babel/core@npm:7.17.4"
+"@babel/core@npm:7.17.5":
+  version: 7.17.5
+  resolution: "@babel/core@npm:7.17.5"
   dependencies:
     "@ampproject/remapping": ^2.1.0
     "@babel/code-frame": ^7.16.7
@@ -88,7 +88,7 @@ __metadata:
     gensync: ^1.0.0-beta.2
     json5: ^2.1.2
     semver: ^6.3.0
-  checksum: 085d06ba292c066b88a3135900cd02ac9045200bfdbbb5e610bf4a698d1d546b5224c15bff2deb45561803ced311b9da30c2de47a65e8524a3a097eaa969fb14
+  checksum: b6bcc930f54f1658a876cbd3886a94d4f6de0d73beb58083b4b6b68c57ae7f4117a751af2182735da5a126220b1e1c0ce6d37f81a77e49bd277a7ea6ca613de2
   languageName: node
   linkType: hard
 
@@ -3640,7 +3640,7 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "postcss-ic-unit@workspace:."
   dependencies:
-    "@babel/core": 7.17.4
+    "@babel/core": 7.17.5
     "@babel/eslint-parser": 7.17.0
     "@babel/preset-env": 7.16.11
     "@rollup/plugin-babel": 5.3.0
