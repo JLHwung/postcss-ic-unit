@@ -3691,7 +3691,7 @@ fsevents@~2.1.2:
     ajv: 8.10.0
     eslint: 8.11.0
     eslint-config-dev: 2.0.0
-    postcss: 8.4.8
+    postcss: 8.4.11
     postcss-tape: 6.0.1
     pre-commit: 1.2.2
     rollup: 2.38.2
@@ -3712,14 +3712,14 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.8":
-  version: 8.4.8
-  resolution: "postcss@npm:8.4.8"
+"postcss@npm:8.4.11":
+  version: 8.4.11
+  resolution: "postcss@npm:8.4.11"
   dependencies:
     nanoid: ^3.3.1
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 51218659287ad82ce4abc8c3b4883b254c7afeeb9bdb460696e911919ec45e85f8ac4acd0739ba68a6d74c5835a3dcc2a754e51928013cc38adbcf10b9102364
+  checksum: 265fe777e5e1fcd567e3337c01a9816c432e607f333f3f83d897634485210d5b699d1ed7116704c47db53b5ef0738d3284b16fffe1dae3464a41cf5151e40df9
   languageName: node
   linkType: hard
 
