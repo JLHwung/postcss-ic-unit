@@ -76,17 +76,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.17.7":
-  version: 7.17.7
-  resolution: "@babel/core@npm:7.17.7"
+"@babel/core@npm:7.17.8":
+  version: 7.17.8
+  resolution: "@babel/core@npm:7.17.8"
   dependencies:
     "@ampproject/remapping": ^2.1.0
     "@babel/code-frame": ^7.16.7
     "@babel/generator": ^7.17.7
     "@babel/helper-compilation-targets": ^7.17.7
     "@babel/helper-module-transforms": ^7.17.7
-    "@babel/helpers": ^7.17.7
-    "@babel/parser": ^7.17.7
+    "@babel/helpers": ^7.17.8
+    "@babel/parser": ^7.17.8
     "@babel/template": ^7.16.7
     "@babel/traverse": ^7.17.3
     "@babel/types": ^7.17.0
@@ -95,7 +95,7 @@ __metadata:
     gensync: ^1.0.0-beta.2
     json5: ^2.1.2
     semver: ^6.3.0
-  checksum: ea7b6e1aa9eafbfb9f9fd4cf73e7310bd7ce28af9e590e9fa0130c4d4605a2d08e77aee7c36975a7f5c263bee3fe7562072ead4d32eebabdcf98459878c3f2d2
+  checksum: e153e40a845fbfae12f11424b0bb6121e5b126027857f1d2f86e29ca8e6d93f83cd8c8e98658fd8a0e85d7bb9b1b9aeb6f83d0eff1bb4dfe0528ee35f15304f1
   languageName: node
   linkType: hard
 
@@ -626,14 +626,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helpers@npm:^7.17.7":
-  version: 7.17.7
-  resolution: "@babel/helpers@npm:7.17.7"
+"@babel/helpers@npm:^7.17.8":
+  version: 7.17.8
+  resolution: "@babel/helpers@npm:7.17.8"
   dependencies:
     "@babel/template": ^7.16.7
     "@babel/traverse": ^7.17.3
     "@babel/types": ^7.17.0
-  checksum: 5458722a13c8d254519c035ea1286f54063640cf5db329d268ad439b4a845dbcaac14cf9f31647d0c909944aaa17987a9a146f8b5bd7fe5ab971c7962e16aeaa
+  checksum: 1bb2db5ad6603ab24af8b976dc7e113b3db64ff6799fc0e935f1886b988123dcdb63485addf72c8a99b0b00b64ba7de5f2097f2305ab3f8749228a56a840e723
   languageName: node
   linkType: hard
 
@@ -715,12 +715,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.17.7":
-  version: 7.17.7
-  resolution: "@babel/parser@npm:7.17.7"
+"@babel/parser@npm:^7.17.8":
+  version: 7.17.8
+  resolution: "@babel/parser@npm:7.17.8"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: a915ddd195495303aee833c487cc20a2fe8ad447101c2110ac73b812cc50d279499d0c262bcd95fae302844470ea63aee43f92cc28387b6a4d1f78c36f6be612
+  checksum: 4b54dcf923da33a4ca7909b6306d09b5f6f181cad625d4ce18a0a615a938f184623afcec7ed28c050a551117c0bd09f62fe1de3083d62200840f2d9b01fc5e8f
   languageName: node
   linkType: hard
 
@@ -3684,7 +3684,7 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "postcss-ic-unit@workspace:."
   dependencies:
-    "@babel/core": 7.17.7
+    "@babel/core": 7.17.8
     "@babel/eslint-parser": 7.17.0
     "@babel/preset-env": 7.16.11
     "@rollup/plugin-babel": 5.3.1
