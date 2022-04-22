@@ -1794,9 +1794,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@eslint/eslintrc@npm:1.2.1"
+"@eslint/eslintrc@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "@eslint/eslintrc@npm:1.2.2"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
@@ -1807,7 +1807,7 @@ __metadata:
     js-yaml: ^4.1.0
     minimatch: ^3.0.4
     strip-json-comments: ^3.1.1
-  checksum: c86eba2508d4bf9baf996569e9143db8aa24bf989c9831fb5642ef99025ac4422b61e1de4ad2e9f08349479960a28123a23ac29f683b8e2e0359d2425828bc6b
+  checksum: 5951a642e436384d99b9d81326518f43bfa564ef32da67695e4c89700b61016b15b2a65e3ae49f63cfe9d810f915b81c7b8e8e1777f3ecf1b840282a73e98797
   languageName: node
   linkType: hard
 
@@ -2641,11 +2641,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.13.0":
-  version: 8.13.0
-  resolution: "eslint@npm:8.13.0"
+"eslint@npm:8.14.0":
+  version: 8.14.0
+  resolution: "eslint@npm:8.14.0"
   dependencies:
-    "@eslint/eslintrc": ^1.2.1
+    "@eslint/eslintrc": ^1.2.2
     "@humanwhocodes/config-array": ^0.9.2
     ajv: ^6.10.0
     chalk: ^4.0.0
@@ -2682,7 +2682,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 6d8bb7b02686e3ffc31e6a4e32c177148060ddf04a0def43c309786cedb7e398e10c40373bc16c75b0c5645261e5b766a1abff7565e88645330e539cd32097f3
+  checksum: fb114de3c0ee102dfd02a0688658959260baaf00e949eef5d557777b4808433af8076e94c5507e91e05e9e099a47df29f3ceb43483d798d467b9aaa958a995d4
   languageName: node
   linkType: hard
 
@@ -3708,7 +3708,7 @@ fsevents@~2.1.2:
     "@babel/preset-env": 7.16.11
     "@rollup/plugin-babel": 5.3.1
     ajv: 8.11.0
-    eslint: 8.13.0
+    eslint: 8.14.0
     eslint-config-dev: 2.0.0
     postcss: 8.4.12
     postcss-tape: 6.0.1
