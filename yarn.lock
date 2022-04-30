@@ -3582,12 +3582,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "nanoid@npm:3.3.1"
+"nanoid@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "nanoid@npm:3.3.3"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: a357d61e7c404c45526a6de65d186711bfcca134d8ce67db2d160752e1bb0bc35dd41d3d78a7f5d74fb50ad040ecf59512e92b84d114607326399c94d435fdad
+  checksum: 012f9e5ab59cf28359e6c6f670571a1febcf03a6d6c48800971ecf81c5df846290280e3e90236a2ee36c87bf0b91807c19aed3c82fbd58faed00aedd7186fbc8
   languageName: node
   linkType: hard
 
@@ -3852,7 +3852,7 @@ fsevents@~2.1.2:
     ajv: 8.11.0
     eslint: 8.14.0
     eslint-config-dev: 2.0.0
-    postcss: 8.4.12
+    postcss: 8.4.13
     postcss-tape: 6.0.1
     pre-commit: 1.2.2
     rollup: 2.38.2
@@ -3873,14 +3873,14 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.12":
-  version: 8.4.12
-  resolution: "postcss@npm:8.4.12"
+"postcss@npm:8.4.13":
+  version: 8.4.13
+  resolution: "postcss@npm:8.4.13"
   dependencies:
-    nanoid: ^3.3.1
+    nanoid: ^3.3.3
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 62030319d26ac1f6475b8a097cde13a035692487a0be336e8aec7b2a3d6aa30990bb5ce06f76fedc3c354275e0578e7657127a403387b90857f4dc054cc80724
+  checksum: b9ed0f83feed3f9e2c24aa3a154836c126399584cd319fb6539dd77943218623ad486f37871fe4aeef9619c7107fa807c29ca341543652b4f8dca80e1781507e
   languageName: node
   linkType: hard
 
