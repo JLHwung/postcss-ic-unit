@@ -2588,9 +2588,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.26.0":
-  version: 8.26.0
-  resolution: "eslint@npm:8.26.0"
+"eslint@npm:8.27.0":
+  version: 8.27.0
+  resolution: "eslint@npm:8.27.0"
   dependencies:
     "@eslint/eslintrc": ^1.3.3
     "@humanwhocodes/config-array": ^0.11.6
@@ -2633,7 +2633,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 5aeef9be0ca0f7bd4bd41d6d1ce6790ec2f2e29920cf4f74e44d4dd005ae6e5d56554cf8257d268c8e4011459ca4b1e10e8aadaec6cf238052ba356e63a11e30
+  checksum: d37004ce3cf2ca4a1495e9710a31dbfda76c4b588e07c5ce8608a90747c745d7bce53d1228887100ef58819e91da32999a616b938fa29ac7a50070ee2a322ec3
   languageName: node
   linkType: hard
 
@@ -3654,7 +3654,7 @@ fsevents@~2.1.2:
     "@babel/preset-env": 7.20.2
     "@rollup/plugin-babel": 5.3.1
     ajv: 8.11.0
-    eslint: 8.26.0
+    eslint: 8.27.0
     eslint-config-dev: 2.0.0
     postcss: 8.4.18
     postcss-tape: 6.0.1
