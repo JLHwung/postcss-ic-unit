@@ -1840,9 +1840,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@eslint/eslintrc@npm:1.4.0"
+"@eslint/eslintrc@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@eslint/eslintrc@npm:1.4.1"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
@@ -1853,7 +1853,7 @@ __metadata:
     js-yaml: ^4.1.0
     minimatch: ^3.1.2
     strip-json-comments: ^3.1.1
-  checksum: e9b1486ee61886cb913ece33bd23b2942483777db558903376c734bd42d1a5cd58bef6a0b58fcf6c58132ef5f6d4c5bbcfe54fdd1ca95133e7d029e64b9d43bf
+  checksum: cc5841156bcdb1642a438eaee459120b3c4f6bbe478f947034cfac355996299d8dea4c86acd081e2f1e8442b4e659bd48e48d53af0900e663ce9250a1a5572c9
   languageName: node
   linkType: hard
 
@@ -2670,11 +2670,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.30.0":
-  version: 8.30.0
-  resolution: "eslint@npm:8.30.0"
+"eslint@npm:8.31.0":
+  version: 8.31.0
+  resolution: "eslint@npm:8.31.0"
   dependencies:
-    "@eslint/eslintrc": ^1.4.0
+    "@eslint/eslintrc": ^1.4.1
     "@humanwhocodes/config-array": ^0.11.8
     "@humanwhocodes/module-importer": ^1.0.1
     "@nodelib/fs.walk": ^1.2.8
@@ -2715,7 +2715,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: bbcbf7d9859c17c4493fb8a4f1a335a6cb2c39eeabd2490992716fd950489a5143e81177a849a9eebdb6867e1a07bb1f8e315fa484a013b65d9d5963c5cf7c63
+  checksum: b75f16a80171a580fc5005144f7646128e1f624071574ae361bf7444a12f9896e326994fc03006ff0560b63f5180f85dd3b50086308a0335399defa0e3ba47bd
   languageName: node
   linkType: hard
 
@@ -3745,7 +3745,7 @@ fsevents@~2.1.2:
     "@babel/preset-env": 7.20.2
     "@rollup/plugin-babel": 5.3.1
     ajv: 8.11.2
-    eslint: 8.30.0
+    eslint: 8.31.0
     eslint-config-dev: 2.0.0
     postcss: 8.4.20
     postcss-tape: 6.0.1
