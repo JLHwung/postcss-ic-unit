@@ -1872,9 +1872,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.4.1":
-  version: 1.4.1
-  resolution: "@eslint/eslintrc@npm:1.4.1"
+"@eslint/eslintrc@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@eslint/eslintrc@npm:2.0.0"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
@@ -1885,7 +1885,14 @@ __metadata:
     js-yaml: ^4.1.0
     minimatch: ^3.1.2
     strip-json-comments: ^3.1.1
-  checksum: cc5841156bcdb1642a438eaee459120b3c4f6bbe478f947034cfac355996299d8dea4c86acd081e2f1e8442b4e659bd48e48d53af0900e663ce9250a1a5572c9
+  checksum: a712c82ed752f99c66cec79f764446ea16ffc86740ae532b4c788aa72942aa5e5707d30450792b6077d4cdd9149809ccc1b5dcedcb33379f788ef408ed52f657
+  languageName: node
+  linkType: hard
+
+"@eslint/js@npm:8.35.0":
+  version: 8.35.0
+  resolution: "@eslint/js@npm:8.35.0"
+  checksum: ee44ceb4e88930da6b8cf57a5fcb6187564f7deaee48f28bb59f7cae0b234afd3284306eff72de8592b32a8986ed6033000dd12bb6173d1c04c0feee34d55239
   languageName: node
   linkType: hard
 
@@ -2726,11 +2733,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.34.0":
-  version: 8.34.0
-  resolution: "eslint@npm:8.34.0"
+"eslint@npm:8.35.0":
+  version: 8.35.0
+  resolution: "eslint@npm:8.35.0"
   dependencies:
-    "@eslint/eslintrc": ^1.4.1
+    "@eslint/eslintrc": ^2.0.0
+    "@eslint/js": 8.35.0
     "@humanwhocodes/config-array": ^0.11.8
     "@humanwhocodes/module-importer": ^1.0.1
     "@nodelib/fs.walk": ^1.2.8
@@ -2744,7 +2752,7 @@ __metadata:
     eslint-utils: ^3.0.0
     eslint-visitor-keys: ^3.3.0
     espree: ^9.4.0
-    esquery: ^1.4.0
+    esquery: ^1.4.2
     esutils: ^2.0.2
     fast-deep-equal: ^3.1.3
     file-entry-cache: ^6.0.1
@@ -2771,7 +2779,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: d64a438bb73eedd598d002dadb0b429749ef59c58a58ef391c094667b4b255408f4cf6a3d0467cfa686fda708530cc931f613c02e9114336b1ae523b6da12c17
+  checksum: 1f727bc9da1feb66494ed0209e092841bd3abb4c3583866a3f9ef341b34cdd7305ddfc05137a0edd817989a853d287d08e3b7f5cf9dd7a54c8a0b68ba1978523
   languageName: node
   linkType: hard
 
@@ -2786,12 +2794,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esquery@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "esquery@npm:1.4.0"
+"esquery@npm:^1.4.2":
+  version: 1.4.2
+  resolution: "esquery@npm:1.4.2"
   dependencies:
     estraverse: ^5.1.0
-  checksum: 3293ecc1507a8cec8d2da8a4707275c2ccf5413e7a3c771fe41c16cee603cacd193bb7383a6e219d1f7d2449156ef575ffd66c839073d4a8058f72856a15f622
+  checksum: 40a124e8d64fd78faa4d6862a9d2797f195da170a0fbd7932928f4d3870b8a61ae2163323ad47c9c9b691a5db9977ae2e2f657e9820c501959c5163511d03780
   languageName: node
   linkType: hard
 
@@ -3801,7 +3809,7 @@ fsevents@~2.1.2:
     "@babel/preset-env": 7.20.2
     "@rollup/plugin-babel": 5.3.1
     ajv: 8.12.0
-    eslint: 8.34.0
+    eslint: 8.35.0
     eslint-config-dev: 2.0.0
     postcss: 8.4.21
     postcss-tape: 6.0.1
