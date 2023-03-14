@@ -54,32 +54,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.21.0":
-  version: 7.21.0
-  resolution: "@babel/core@npm:7.21.0"
+"@babel/core@npm:7.21.3":
+  version: 7.21.3
+  resolution: "@babel/core@npm:7.21.3"
   dependencies:
     "@ampproject/remapping": ^2.2.0
     "@babel/code-frame": ^7.18.6
-    "@babel/generator": ^7.21.0
+    "@babel/generator": ^7.21.3
     "@babel/helper-compilation-targets": ^7.20.7
-    "@babel/helper-module-transforms": ^7.21.0
+    "@babel/helper-module-transforms": ^7.21.2
     "@babel/helpers": ^7.21.0
-    "@babel/parser": ^7.21.0
+    "@babel/parser": ^7.21.3
     "@babel/template": ^7.20.7
-    "@babel/traverse": ^7.21.0
-    "@babel/types": ^7.21.0
+    "@babel/traverse": ^7.21.3
+    "@babel/types": ^7.21.3
     convert-source-map: ^1.7.0
     debug: ^4.1.0
     gensync: ^1.0.0-beta.2
     json5: ^2.2.2
     semver: ^6.3.0
-  checksum: 40940706ee1ad4672a7674902ea39e86e9e497786bba2c06fea1297147cdb209b3c898af01fa65288e5feb7a081c9c51bf704f986e3be5bc46b4cee812be06fe
+  checksum: 42e3e003aca9fb139c00b5a3f9b8b207932a1f22d865661bf87506c8c4ccfca730b5af5c3d2e48b28c6c6861304c13ba92b98899c98ab060b0ee324caccc83dd
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.19.1":
-  version: 7.19.1
-  resolution: "@babel/eslint-parser@npm:7.19.1"
+"@babel/eslint-parser@npm:7.21.3":
+  version: 7.21.3
+  resolution: "@babel/eslint-parser@npm:7.21.3"
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals": 5.1.1-v1
     eslint-visitor-keys: ^2.1.0
@@ -87,7 +87,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ">=7.11.0"
     eslint: ^7.5.0 || ^8.0.0
-  checksum: e7bbcdd8b61bc7040af63e8b1abf109224085ccf3e72ef08cc00647b9fae4a74df54cfc0860218ce38f7520938494cdeeb3b1824b989366a733551faf7048667
+  checksum: f3e59fcb792f02d12fc76c63585d7fe6244bd396c1c213113c82e8d4569af0e325bb9713a4ce5147b08714d066944a1f6a27412468e6812733320905dffa1f50
   languageName: node
   linkType: hard
 
@@ -144,6 +144,18 @@ __metadata:
     "@jridgewell/trace-mapping": ^0.3.17
     jsesc: ^2.5.1
   checksum: 3a8696fff87a9fa852a70132913c80e6aedd9e7d6ef3edf3fa2ceb7636499d24b392c4c163963555ecf2f9294d0305b3b758e89ccfb24681eeae180299dd8421
+  languageName: node
+  linkType: hard
+
+"@babel/generator@npm:^7.21.3":
+  version: 7.21.3
+  resolution: "@babel/generator@npm:7.21.3"
+  dependencies:
+    "@babel/types": ^7.21.3
+    "@jridgewell/gen-mapping": ^0.3.2
+    "@jridgewell/trace-mapping": ^0.3.17
+    jsesc: ^2.5.1
+  checksum: a034af1b27d1082d7af8cf4fce09663f84c1b584e0c44d7106d2fe90583bb821a0ee92b1197e848d2010d06146adeb4ae5fddf016a4c088b988461bb88705cb9
   languageName: node
   linkType: hard
 
@@ -428,9 +440,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-module-transforms@npm:^7.21.0":
-  version: 7.21.0
-  resolution: "@babel/helper-module-transforms@npm:7.21.0"
+"@babel/helper-module-transforms@npm:^7.21.2":
+  version: 7.21.2
+  resolution: "@babel/helper-module-transforms@npm:7.21.2"
   dependencies:
     "@babel/helper-environment-visitor": ^7.18.9
     "@babel/helper-module-imports": ^7.18.6
@@ -438,9 +450,9 @@ __metadata:
     "@babel/helper-split-export-declaration": ^7.18.6
     "@babel/helper-validator-identifier": ^7.19.1
     "@babel/template": ^7.20.7
-    "@babel/traverse": ^7.21.0
-    "@babel/types": ^7.21.0
-  checksum: 508a0e0b504dedfc0a5da1b78f5f37ec7c5bd819126c77b3306dc38c77f00893b9e1dc85f7a5559c3f62309c3b023b5394ff35af9807749c5d1f48abb631bd1d
+    "@babel/traverse": ^7.21.2
+    "@babel/types": ^7.21.2
+  checksum: 0b8aae1af1f59d52696a5542297f24053012c89a9b7124c57eca7f3aa6288fdae6f638283e9e542f59673a3f2270e0f829b59dedc73ee8ea0ce0c0dc49103e96
   languageName: node
   linkType: hard
 
@@ -760,6 +772,15 @@ __metadata:
   bin:
     parser: ./bin/babel-parser.js
   checksum: e142e4749b5b41a0dfb7090de534039d4d4cbbd594f6738e3da25be26f184d2d64ad783c217c6670ec8cf5a5848d160f48b11fd35e63e9f01dbedfbe397d3add
+  languageName: node
+  linkType: hard
+
+"@babel/parser@npm:^7.21.3":
+  version: 7.21.3
+  resolution: "@babel/parser@npm:7.21.3"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: f181c4144cd0870539102a7ddc8d7574b46c190c4f5acda8aa956ce8f8af912a12a84b4428e966ef9968f8db20e4447114bcd0d17c15875b5d7be7f68d048b4a
   languageName: node
   linkType: hard
 
@@ -1775,6 +1796,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/traverse@npm:^7.21.2, @babel/traverse@npm:^7.21.3":
+  version: 7.21.3
+  resolution: "@babel/traverse@npm:7.21.3"
+  dependencies:
+    "@babel/code-frame": ^7.18.6
+    "@babel/generator": ^7.21.3
+    "@babel/helper-environment-visitor": ^7.18.9
+    "@babel/helper-function-name": ^7.21.0
+    "@babel/helper-hoist-variables": ^7.18.6
+    "@babel/helper-split-export-declaration": ^7.18.6
+    "@babel/parser": ^7.21.3
+    "@babel/types": ^7.21.3
+    debug: ^4.1.0
+    globals: ^11.1.0
+  checksum: 86157ce72475ffe0067ec5185d0aa355763e532837659c6cd52341e2bcef40032eee463f74c56fed4a4bc48d022f84fffbc4eaf870422e04e04ceed3c2ea608b
+  languageName: node
+  linkType: hard
+
 "@babel/types@npm:^7.10.4, @babel/types@npm:^7.4.4":
   version: 7.11.5
   resolution: "@babel/types@npm:7.11.5"
@@ -1869,6 +1908,17 @@ __metadata:
     "@babel/helper-validator-identifier": ^7.19.1
     to-fast-properties: ^2.0.0
   checksum: 724d90d1afe3f8f9cacac0f48751d63f972d70a3eebadb75bdccfb0b3aa04671533f8646a3669d430f4f0b80f1fa554c947bea3698ba2a1688d34885f9a87750
+  languageName: node
+  linkType: hard
+
+"@babel/types@npm:^7.21.2, @babel/types@npm:^7.21.3":
+  version: 7.21.3
+  resolution: "@babel/types@npm:7.21.3"
+  dependencies:
+    "@babel/helper-string-parser": ^7.19.4
+    "@babel/helper-validator-identifier": ^7.19.1
+    to-fast-properties: ^2.0.0
+  checksum: f23188df21dbf6e6a41c8994843d8ce91b41fa7dfad856fc2c1caf0c002965253b1a947a1af63b347db4e7f94791c604f4682e3ef9f733573ce9a4b29af75ff0
   languageName: node
   linkType: hard
 
@@ -3804,8 +3854,8 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "postcss-ic-unit@workspace:."
   dependencies:
-    "@babel/core": 7.21.0
-    "@babel/eslint-parser": 7.19.1
+    "@babel/core": 7.21.3
+    "@babel/eslint-parser": 7.21.3
     "@babel/preset-env": 7.20.2
     "@rollup/plugin-babel": 5.3.1
     ajv: 8.12.0
