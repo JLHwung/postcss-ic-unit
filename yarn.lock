@@ -3803,7 +3803,7 @@ fsevents@~2.1.2:
     postcss-tape: 6.0.1
     pre-commit: 1.2.2
     rollup: 2.38.2
-    yaspeller: 10.0.0
+    yaspeller: 10.0.1
   peerDependencies:
     postcss: ^8.0.0
   languageName: unknown
@@ -4666,9 +4666,9 @@ resolve@^1.14.2:
   languageName: node
   linkType: hard
 
-"yaspeller@npm:10.0.0":
-  version: 10.0.0
-  resolution: "yaspeller@npm:10.0.0"
+"yaspeller@npm:10.0.1":
+  version: 10.0.1
+  resolution: "yaspeller@npm:10.0.1"
   dependencies:
     async: ^3.2.5
     commander: ^3.0.0
@@ -4688,7 +4688,7 @@ resolve@^1.14.2:
     yandex-speller: ^6.0.0
   bin:
     yaspeller: bin/yaspeller
-  checksum: 3bb2adfaacb6fdb08b0a17c8869d46f573ee9c3b96d04a3658ece22483d866b8911884b96fb96ff3a3aebcecb8bc8e4d37503bddd218487e547cb5557c86fac5
+  checksum: 0c3e32458784bf5345217bdcd5f59d2c358678ae59080860017503c6a5885323f4966ab507f5ac4cfeadf7acfcbcce43181b8720239e61eceabe386f034ab960
   languageName: node
   linkType: hard
 
