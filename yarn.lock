@@ -3850,7 +3850,7 @@ fsevents@~2.1.2:
     ajv: 8.12.0
     eslint: 8.57.0
     eslint-config-dev: 2.0.0
-    postcss: 8.4.35
+    postcss: 8.4.36
     postcss-tape: 6.0.1
     pre-commit: 1.2.2
     rollup: 2.38.2
@@ -3871,14 +3871,14 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.35":
-  version: 8.4.35
-  resolution: "postcss@npm:8.4.35"
+"postcss@npm:8.4.36":
+  version: 8.4.36
+  resolution: "postcss@npm:8.4.36"
   dependencies:
     nanoid: ^3.3.7
     picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: 76ba4e8e048593f623a2df9e0c6d707a00cf11e539037308a53cacb7147e0522f3b69232129178ef9303281b587f7af66b064d41b99570dda1ce83ca2d6399ae
+    source-map-js: ^1.1.0
+  checksum: 049539db5ee3916ff8892cdd5491ea501d40315d66544cbd945184dc1fb25cfa15aec2b5033fe7dc214737d1e76b6641316a08790131b9cd33396c307aae6c22
   languageName: node
   linkType: hard
 
@@ -4277,10 +4277,10 @@ resolve@^1.14.2:
   languageName: node
   linkType: hard
 
-"source-map-js@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "source-map-js@npm:1.0.2"
-  checksum: 3bb232796ad9b71bad151cb30c7fc1a2afdaf5bcfd4aa7806f56a2d4ff4824e1481e960436c5e9ec26e8c1ae129aee8107df0859c15b1ccada31a9a7ef254abc
+"source-map-js@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "source-map-js@npm:1.1.0"
+  checksum: 2abf008f27a78b23cad2c9cda5a1a6f3085667bb22a06c4cd80d0927a0061bb405dc2001278841ed5d91030a7aafba8593dfb3079d0c8c772f82b0c235a75a23
   languageName: node
   linkType: hard
 
