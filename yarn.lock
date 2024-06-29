@@ -3901,6 +3901,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"picocolors@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "picocolors@npm:1.0.1"
+  checksum: 09a1496c874f28c24a5b2aa97d76616bc4646c0e14df6d40cf17fb1df494d81896aa92e34adacd5b563566401e83c854567b64055dc058bdbcd166694f378d23
+  languageName: node
+  linkType: hard
+
 "picomatch@npm:^2.2.2":
   version: 2.2.2
   resolution: "picomatch@npm:2.2.2"
@@ -3919,7 +3926,7 @@ fsevents@~2.1.2:
     ajv: 8.12.0
     eslint: 8.57.0
     eslint-config-dev: 2.0.0
-    postcss: 8.4.38
+    postcss: 8.4.39
     postcss-tape: 6.0.1
     pre-commit: 1.2.2
     rollup: 2.38.2
@@ -3940,14 +3947,14 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.38":
-  version: 8.4.38
-  resolution: "postcss@npm:8.4.38"
+"postcss@npm:8.4.39":
+  version: 8.4.39
+  resolution: "postcss@npm:8.4.39"
   dependencies:
     nanoid: ^3.3.7
-    picocolors: ^1.0.0
+    picocolors: ^1.0.1
     source-map-js: ^1.2.0
-  checksum: 031fc3a3a28d84fab064738971f60b3ad23707d1c47225dc9caee59c6abc0a250ec20bfeebda1a7f650369d6800aa3adca149c9af0f3d38df66322761ee6f58f
+  checksum: dc8d425c079e33fa0ad29ed458e573895cd45470367913bc2fe9170a11b5d7f41ac4ba22b8f70e0d755de73d282a943dbaa375509fe07af828f1c71db52cec78
   languageName: node
   linkType: hard
 
